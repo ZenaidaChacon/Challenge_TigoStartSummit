@@ -429,3 +429,4 @@ Si quieres, también puedo ayudarte a hacer que soporte reemplazos en objetos JS
 
 ## Universidad: Universidad de San Carlos de Guatemala
 
+Contratos o colleccion de Postman: https://documenter.getpostman.com/view/15675492/2sB34fnggP
