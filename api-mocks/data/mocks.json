@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/api/saludo",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "response": "{\"msg\": \"Hola {{usuario}}! Esto es EDITADO\"}",
+    "conditions": [
+      {
+        "param": "usuario",
+        "value": "admin",
+        "response": "{\"msg\": \"Hola Admin EDITADO\"}"
+      }
+    ],
+    "id": "1752297760686"
+  },
+  {
+    "path": "/api/login",
+    "method": "POST",
+    "status": 200,
+    "contentType": "application/json",
+    "response": "{\"token\": \"abc123\", \"usuario\": \"{{username}}\"}",
+    "body": {
+      "username": "usuario1",
+      "password": "secreto"
+    },
+    "headers": {
+      "authorization": "Bearer 123token"
+    },
+    "id": "1752297853265"
+  }
+]
